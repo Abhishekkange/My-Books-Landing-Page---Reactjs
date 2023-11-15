@@ -1,0 +1,58 @@
+.navbar{
+
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-links ul {
+
+    display: flex;
+    align-items: center;
+    list-style: none;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+    z-index: 999;
+    position: relative;
+    overflow: hidden;
+  
+
+
+
+}
+
+li  a{
+
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+    z-index: 999;
+    position: relative;
+
+}
+
+li  :hover{
+
+  
+    font-size: 16px;
+   
+
+}
