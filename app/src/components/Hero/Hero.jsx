@@ -7,15 +7,15 @@ export default function Hero() {
       <div>
         <div className="hero">
           <div className="hero-text">
-            <h2>Programmer & Author</h2>
-            <h1>Abhishek Kange</h1>
+            <h2>Master Android Development</h2>
+            <h1>Let's Code Facebook </h1>
           </div>
           <div className="buttons">
-           <button>Books</button>
-           <button>Projects</button>
+           <button id='read-now-btn'>Read Now</button>
+           <button id='buy-now-btn'>Buy Now</button>
           </div>
           <div className="heropng">
-            <img  src="boyimg.png" alt="logo" />
+            <img  src="bookmockedup.png" alt="logo" />
 
           </div>
     
