@@ -1,5 +1,6 @@
 
 import './App.css';
+import Hero from './components/Hero/Hero';
 import Navbar from './components/navbar/Navbar';
 
 
@@ -7,8 +8,9 @@ import Navbar from './components/navbar/Navbar';
 function App() {
   return (
     <>
-    <section>
+    <section id='homepage'>
       <Navbar/>
+      <Hero/>
     </section>
     <section>
   

@@ -3,6 +3,8 @@
 
     display: flex;
     justify-content: space-between;
+    height: 70px;
+    background-color: #181841;
 }
 
 .nav-links ul {
