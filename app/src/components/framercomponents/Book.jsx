@@ -8,6 +8,7 @@ const FloatingImage = () => {
       <motion.img
         src="bookmockedup.png" // Replace with your image URL
         alt="Floating Image"
+        className='bookImage'
         style={{ width: '420px', height: '550px' }}
         initial={{ y: 0 }} // Initial position of the image
         animate={{ y: [0, -30, 0] }} // Animation to move image up and down

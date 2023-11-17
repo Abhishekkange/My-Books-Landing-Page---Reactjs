@@ -15,7 +15,7 @@
     align-items: center;
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 100px;
+    margin-left: 60px;
     margin-right: 20px;
     width: fit-content;
     padding: 20px;
@@ -40,7 +40,7 @@
 .hero-text p{
 
     width: 450px;
-    margin-left: 80px;
+    margin-left: 40px;
 }
 
 .hero-text {
@@ -59,7 +59,7 @@
     width: 100%;
     font-size: 20px;
     margin-top: 90px;
-    margin-left: 80px;
+    margin-left: 40px;
     padding: 5px;
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 18px;
@@ -70,7 +70,7 @@ h1{
     color: white;
     width: 100%;
     font-size: 48px;
-    margin-left: 80px;
+    margin-left: 40px;
     margin-top: 0px;
     padding: 5px;
     font-size: 50px;
@@ -91,5 +91,67 @@ h1{
 
     width: 100px;
     margin-top: 6px;
+}
+
+@media(max-width:500px){
+
+    .hero{
+        display: block;
+    }
+    .heropng{
+
+        top:400px;
+        margin-top: 100px;
+    }
+    h1{
+        font-size: 45px;
+        margin-left: 0px;
+    }
+    .hero-text{
+
+        margin-left: 40px;
+        padding-left: 10px;
+    }
+  
+    .hero-text p{
+
+        font-size: 13px;
+        margin-left: 1px;
+        padding: 5px;
+        width: 300px;
+        margin-right: 600px;
+        
+
+    }
+    .hero-text h2{
+        margin-left: 5px;
+    }
+    .buttons button{
+
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: 5px;
+        background-color: transparent;
+        text-decoration: none;
+        outline: none;
+        color: white;
+        border: 2px solid white;
+        border-radius: 10px;
+        
+    }
+    .buttons{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        width: fit-content;
+        padding: 20px;
+    }
 }
    
