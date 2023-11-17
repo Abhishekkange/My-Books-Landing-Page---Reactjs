@@ -5,13 +5,7 @@ export default function Navbar() {
   return (
     <>
     <div className="navbar">
-        <div className="leftNavSection">
-
-        <div className="logo">
-            <img src="https://www.pngarts.com/files/2/Logo-PNG-Image.png" alt="logo" />
-        </div>
-
-        </div>
+        <div className="leftNavSection"><h3 id='logo-name'>Abhishek Kange</h3></div>
         <div className="rightNavSection">
 
         <div className="nav-links">
