@@ -1,11 +1,8 @@
-
-
-
+/* Default styles */
 .footer {
-    
     color: #fff;
     padding: 20px;
-    display: flex;
+    display: block;
     justify-content: space-between;
     align-items: center;
   }
@@ -30,20 +27,52 @@
   
   /* Media query for max-width 500px */
   @media (max-width: 500px) {
-    
-    .footer-container{
-      flex-direction: column;
+    .footer {
+      display: block;
       text-align: center;
       background-color: rgb(33, 0, 49);
-      color: #fff;
       padding: 20px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
+      margin: 10px;
+    }
+
+    #twitterlogo{
+
+        background-color: white !important;
+        width: 30px;
+
+    }
+    .icon img{
+
+        width: 30px;
+        
+
+    }
+    .iconContainer{
+
+        display: flex;
+        align-items: center;
+        padding: 10px;
+    }
+    .icon{
+
+        margin: 10px;
+    }
+
+    .contactInfo p{
+
+        font-size: 15px;
+        margin-left: 10px;
+        
+    }
+
+    .contactInfo{
+
+        margin-bottom: 30px;
     }
   
     .social-media {
       margin-bottom: 15px;
+
     }
   }
   

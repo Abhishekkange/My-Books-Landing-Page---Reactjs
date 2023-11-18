@@ -11,23 +11,12 @@
         margin-left: 30px;
         margin-right: 30px;
         overflow-y: hidden;
-        height:800px;
+        margin-bottom: 100px;
+        color: white;
     }
 
-    .authorimg{
-
-        width: 40%;
-        
-        
-    }
-    .aboutauthor-img{
-
-              margin-top: 100px;
-        margin-left: 30px;
-        margin-right: 30px;
-        
-    }
-
+   
+    
 
 }
 

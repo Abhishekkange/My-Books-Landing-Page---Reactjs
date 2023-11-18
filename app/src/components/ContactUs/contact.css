@@ -58,7 +58,8 @@
     margin-left: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
-    
+    font-family: 'Open Sans', sans-serif;
+
   }
   
   /* Media query for max-width 500px */
@@ -72,12 +73,32 @@
     label{
         margin-left: 20px;
     }
+    .footer-container{
+
+        display: block;
+         
+    }
+    .footer-container
+    
+    #name{
+
+       width: 360px;
+      padding: 8px;
+      align-items: center;
+      justify-content: center;
+      margin-left: 20px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box; /* Ensures padding is included in width */
+
+      
+    }
   
     input[type='text'],
     input[type='email'],
     textarea {
-      width: 350px;
-      padding: 8px;
+      width: 360px;
+      padding: 12px;
       align-items: center;
       justify-content: center;
       margin-left: 20px;

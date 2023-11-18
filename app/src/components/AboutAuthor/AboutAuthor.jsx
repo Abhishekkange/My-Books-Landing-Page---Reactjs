@@ -27,27 +27,7 @@ export default function AboutAuthor() {
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           </motion.p>
         </div>
-        <motion.div
-          className="aboutauthor-img"
-          initial={{ opacity: 0, scale: 0.3 }}
-          whileInView={{ opacity: 1, scale: 1,translateX: 20}}
-          transition={{ duration: 0.5 }}
-        >
-          <motion.img
-            src="me.png"
-            alt="author"
-            className='authorimg'
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ duration: 0.5, delay: 0.8 }}
-            style={
-              {
-                width: '100%',
-                height: '100%',
-              }
-            }
-          />
-        </motion.div>
+      
       </motion.div>
     </div>
   );

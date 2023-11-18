@@ -1,6 +1,6 @@
 import React from 'react'
-import '../Hero/Hero.css'
-import Book from '../framercomponents/Book'
+import '../Hero/Hero2.css'
+
 import BookTitle2  from '../framercomponents/BookTitle2'
 import BookDescription2 from '../framercomponents/BookDescription2'
 import BuyButton from '../framercomponents/BuyButton'
@@ -12,7 +12,7 @@ export default function Hero() {
   return (
     <div>
       <div>
-        <div className="hero">
+        <div className="heros">
           <div className="hero-text">
             
             <BookTitle2/>
@@ -22,10 +22,7 @@ export default function Hero() {
             <ReadMore/>
           <BuyButton/>
           </div>
-          <div className="heropng">
-            {/* <img  src="bookmockedup.png" alt="logo" /> */}
-            <Book/>
-          </div>
+         
     
       </div>
     </div>
