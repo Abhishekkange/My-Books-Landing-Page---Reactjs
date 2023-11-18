@@ -25,13 +25,13 @@ const ContactForm = () => {
     <motion.form
       onSubmit={handleSubmit}
       initial={{ opacity: 0, y: 50 }}
-      animate={{ opacity: 1, y: 0 }}
+      whileInView={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: 50 }}
       transition={{ duration: 0.5 }}
     >
       <motion.div
         initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
+        whileInView={{ opacity: 1 }}
         transition={{ delay: 0.2 }}
       >
         <label htmlFor="name">Name:</label>
@@ -46,7 +46,7 @@ const ContactForm = () => {
       </motion.div>
       <motion.div
         initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
+        whileInView={{ opacity: 1 }}
         transition={{ delay: 0.4 }}
       >
         <label htmlFor="email">Email:</label>
@@ -61,7 +61,7 @@ const ContactForm = () => {
       </motion.div>
       <motion.div
         initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
+        whileInView={{ opacity: 1 }}
         transition={{ delay: 0.6 }}
       >
         <label htmlFor="subject">Subject:</label>
@@ -76,7 +76,7 @@ const ContactForm = () => {
       </motion.div>
       <motion.div
         initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
+        whileInView={{ opacity: 1 }}
         transition={{ delay: 0.8 }}
       >
         <label htmlFor="message">Message:</label>

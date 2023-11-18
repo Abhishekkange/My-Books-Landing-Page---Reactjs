@@ -22,8 +22,11 @@ function App() {
     </section>
     
     <section><OtherBookHero/></section>
-    <secion><ContactUs/></secion>
-    <section><Footer/></section>
+    <secion>
+      <ContactUs/>
+    <Footer/>
+    </secion>
+   
 
 
     </>

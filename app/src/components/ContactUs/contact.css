@@ -1,29 +1,13 @@
-@media (max-width:500px) {
+/* CSS with Media Queries */
 
-    .contact-form{
-
-        width: 100px;
-    }
-
-  input[type='text'],
-  input[type='email'],
-  textarea {
-    width: 10%;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
-    
-}
-
-
+/* Default styles */
 .contact-form {
     max-width: 400px;
-    margin: 0 auto;
+    margin: 30px;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 8px;
-    background-color: #f9f9f9;
+    background-color: #8e0d0d;
   }
   
   .form-group {
@@ -34,12 +18,13 @@
     display: block;
     font-weight: bold;
     margin-bottom: 5px;
+    margin-top: 5px;
   }
   
   input[type='text'],
   input[type='email'],
   textarea {
-    width: 100%;
+    width: 20px;
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -63,5 +48,42 @@
   .submit-btn:hover {
     background-color: #0056b3;
     transform: scale(1.1);
+  }
+
+  button{
+
+    padding-top: 10px;
+    padding-bottom: 10px;padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+  }
+  
+  /* Media query for max-width 500px */
+  @media (max-width: 500px) {
+    .contact-form {
+      width: 20px;
+      max-width: 100%;
+      margin: 50px;
+      padding: 10px;
+    }
+    label{
+        margin-left: 20px;
+    }
+  
+    input[type='text'],
+    input[type='email'],
+    textarea {
+      width: 350px;
+      padding: 8px;
+      align-items: center;
+      justify-content: center;
+      margin-left: 20px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box; /* Ensures padding is included in width */
+    }
   }
   

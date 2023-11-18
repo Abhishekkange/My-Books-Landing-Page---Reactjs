@@ -11,8 +11,9 @@ const Footer = () => {
   ];
 
   return (
-    <motion.footer style={footerStyle}>
-      <div style={socialMediaStyle}>
+    <motion.footer className='footer-container'>
+        
+      <div >
         {socialMediaLinks.map((social, index) => (
           <motion.a
             key={index}
@@ -21,41 +22,18 @@ const Footer = () => {
             rel="noopener noreferrer"
             whileHover={{ scale: 1.2 }}
             whileTap={{ scale: 0.9 }}
-            style={iconStyle}
+            
           >
             <i className={`fab fa-${social.icon}`} />
           </motion.a>
         ))}
       </div>
-      <div style={contactInfoStyle}>
-        <p>Email: example@example.com</p>
-        <p>Phone: +1234567890</p>
+      <div>
+        <p>Email: Abhishekkange@gmail.com</p>
+        <p>Phone: 9309815795</p>
       </div>
     </motion.footer>
   );
-};
-
-const footerStyle = {
-  backgroundColor: '#333',
-  color: '#fff',
-  padding: '20px',
-  display: 'flex',
-  justifyContent: 'space-between',
-  alignItems: 'center',
-};
-
-const socialMediaStyle = {
-  display: 'flex',
-  gap: '10px',
-};
-
-const iconStyle = {
-  color: '#fff',
-  fontSize: '1.5em',
-};
-
-const contactInfoStyle = {
-  textAlign: 'right',
 };
 
 export default Footer;
