@@ -2,6 +2,11 @@
 import './App.css';
 import Hero from './components/Hero/Hero';
 import Navbar from './components/navbar/Navbar';
+import AboutAuthor from './components/AboutAuthor/AboutAuthor';
+import OtherBookHero from './components/Other books/OtherBookHero';
+import ContactUs from './components/ContactUs/ContactUs';
+import Footer from './components/Footer/Footer';
+
 
 
 
@@ -10,15 +15,15 @@ function App() {
     <>
     <section id='homepage'>
       <Navbar/>
-      <Hero/>
+      <Hero />
     </section>
     <section>
-  
+      <AboutAuthor/>
     </section>
-    <section>Services</section>
-    <section>Portfolio1</section>
-    <secion>Portforlio2</secion>
-    <section>Contact</section>
+    
+    <section><OtherBookHero/></section>
+    <secion><ContactUs/></secion>
+    <section><Footer/></section>
 
 
     </>

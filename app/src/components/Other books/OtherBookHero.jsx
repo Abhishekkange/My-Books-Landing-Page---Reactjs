@@ -1,23 +1,22 @@
 import React from 'react'
-import './Hero.css'
+import '../Hero/Hero.css'
 import Book from '../framercomponents/Book'
-import BookTitle  from '../framercomponents/BookTitle'
-import BookDescription from '../framercomponents/BookDescription'
+import BookTitle2  from '../framercomponents/BookTitle2'
+import BookDescription2 from '../framercomponents/BookDescription2'
 import BuyButton from '../framercomponents/BuyButton'
 import ReadMore from '../framercomponents/ReadMore'
 
 export default function Hero() {
 
- 
+   
   return (
     <div>
       <div>
         <div className="hero">
           <div className="hero-text">
-            <h2>Master Android Development</h2>
-            <BookTitle/>
-            <BookDescription/>
-
+            
+            <BookTitle2/>
+            <BookDescription2/>
           </div>
           <div className="buttons">
             <ReadMore/>

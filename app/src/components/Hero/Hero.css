@@ -29,11 +29,11 @@
     padding-left: 30px;
     padding-right: 30px;
     margin: 10px;
-    background-color: transparent;
+    background-color: rgb(48, 0, 70); 
     text-decoration: none;
     outline: none;
     color: white;
-    border: 2px solid white;
+    text-transform: capitalize;
     border-radius: 10px;
 }
 
@@ -128,17 +128,19 @@ h1{
     }
     .buttons button{
 
-        padding-top: 5px;
-        padding-bottom: 5px;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
         margin: 5px;
         background-color: transparent;
         text-decoration: none;
         outline: none;
+        border: none;
         color: white;
-        border: 2px solid white;
-        border-radius: 10px;
+        border-color: white;
+        border-radius: 5px;
+        background-color: rgb(48, 0, 70); 
         
     }
     .buttons{
@@ -152,6 +154,7 @@ h1{
         margin-right: 20px;
         width: fit-content;
         padding: 20px;
+        
     }
 }
    
